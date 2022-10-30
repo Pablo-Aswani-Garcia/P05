@@ -22,15 +22,15 @@ int main() {
 
   for(int i{0}; i < 2; i++) {
     for(int j{0}; j < 2; j++) {
-      std::cout << "bool a es: " << bool_a << " bool_b es: " << bool_b <<
+      std::cout << "bool a is: " << bool_a << " bool b is: " << bool_b <<
                    std::endl;
-      std::cout << "Puerta AND: " << (bool_a && bool_b) << std::endl;
-      std::cout << "Puerta OR: " << (bool_a || bool_b) << std::endl;
-      std::cout << "Puerta NOT (A): " << (!bool_a) << std::endl;
-      std::cout << "Puerta NOT (B): " << (!bool_b) << std::endl;
+      std::cout << "AND door: " << (bool_a && bool_b) << std::endl;
+      std::cout << "OR door: " << (bool_a || bool_b) << std::endl;
+      std::cout << "NOT (A) door: " << (!bool_a) << std::endl;
+      std::cout << "NOT (B) door: " << (!bool_b) << std::endl;
        std::cout << "Puerta NOR: " << !(bool_a || bool_b) << std::endl;
-      std::cout << "Puerta NAND: " << !(bool_a && bool_b) << std::endl;
-      std::cout << "Puerta XOR: " << ((bool_a || bool_b) && !(bool_a && bool_b)) << std::endl;
+      std::cout << "NAND door: " << !(bool_a && bool_b) << std::endl;
+      std::cout << "XOR door: " << ((bool_a || bool_b) && !(bool_a && bool_b)) << std::endl;
       bool_b=true;
     }
 
