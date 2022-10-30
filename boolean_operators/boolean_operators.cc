@@ -28,7 +28,7 @@ int main() {
       std::cout << "OR door: " << (bool_a || bool_b) << std::endl;
       std::cout << "NOT (A) door: " << (!bool_a) << std::endl;
       std::cout << "NOT (B) door: " << (!bool_b) << std::endl;
-       std::cout << "Puerta NOR: " << !(bool_a || bool_b) << std::endl;
+       std::cout << "NOR door: " << !(bool_a || bool_b) << std::endl;
       std::cout << "NAND door: " << !(bool_a && bool_b) << std::endl;
       std::cout << "XOR door: " << ((bool_a || bool_b) && !(bool_a && bool_b)) << std::endl;
       bool_b=true;
