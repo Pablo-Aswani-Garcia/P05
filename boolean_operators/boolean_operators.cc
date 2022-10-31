@@ -21,8 +21,8 @@ int main() {
                    std::endl;
       std::cout << "AND: " << (i && j) << std::endl;
       std::cout << "OR: " << (i || j) << std::endl;
-      std::cout << "NOT (A): " << (!i) << std::endl;
-      std::cout << "NOT (B): " << (!j) << std::endl;
+      std::cout << "NOT (A) : " << (!i) << std::endl;
+      std::cout << "NOT (B) : " << (!j) << std::endl;
        std::cout << "NOR: " << !(i || j) << std::endl;
       std::cout << "NAND: " << !(i && j) << std::endl;
       std::cout << "XOR: " << ((i || j) && !(i && j)) << std::endl;
