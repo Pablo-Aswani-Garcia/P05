@@ -15,8 +15,8 @@
 #include <iostream>
 
 int main() {
-  int operand_1, operand_2;
   std::cout << "Introduce the value of the operands: ";
+  int operand_1, operand_2;
   std::cin >> operand_1 >> operand_2;
   std::cout << operand_1 << " % " << operand_2 << " = " << operand_1 % operand_2
             << std::endl;
